@@ -30,13 +30,13 @@ public class MainActivity extends AppCompatActivity {
                             .setIcon(android.R.drawable.ic_dialog_alert)
                             .show();
                 } else {
-                    goToWelcomeActivity();
+                    goToHomeActivity();
                 }
             }
         });
     }
 
-    public void goToWelcomeActivity() {
+    public void goToHomeActivity() {
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
